@@ -1,6 +1,5 @@
  "use client"
 import React from 'react'
-import Image from 'next/image'
 import { BiEnvelope } from "react-icons/bi";
 import { BiPhoneCall } from "react-icons/bi";
 import { FaChevronDown } from "react-icons/fa6";

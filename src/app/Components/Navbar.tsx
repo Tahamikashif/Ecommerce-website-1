@@ -1,7 +1,6 @@
 import React from 'react'
 import { FaChevronDown } from "react-icons/fa6";
 import { IoSearch } from "react-icons/io5";
-import Promotion from "@/app/Components/Promotion";
 const Navbar = () => {
   return (
     <div className='w-[1920px] h-screen bg-white'>
