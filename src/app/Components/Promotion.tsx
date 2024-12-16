@@ -1,5 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
+import { FaRegHeart } from "react-icons/fa";
+import { FaSearchPlus } from "react-icons/fa";
 const Promotion = () => {
   return (
     <div className='w-[1920px] h-[764px] top-[122px] bg-promo mt-[-570px]'>
@@ -52,10 +54,10 @@ const Promotion = () => {
        </div>
 
 
-       <div className='w-[367px]  top-[1594px] left-[791px] h-screen'>
+       <div className='  1 w-[367px]  top-[1594px] left-[791px] h-screen'>
         <div className='w-[367px] h-[42px] top-[1015px] left-[777px] ml-[650px]'>
 
-        <p className='text-latest mt-[500px] text-[40px] font-bold '>Featured Products</p> 
+        <p id='Pro' className='text-latest mt-[500px] text-[40px] font-bold '>Featured Products</p> 
      <div className=' w-[270px] h-[361px] top-[1105px] left-[376px] bg-sec ml-[-400px] mt-[50px]'>
     <div className='w-[270px] h-[236px] bg-chair'>
      <div className='w-[178px] h-[178px] top-[46px] left-[40px] flex justify-center items-center ml-[30px] pt-[60px]'>
@@ -88,11 +90,44 @@ const Promotion = () => {
      </div>
 
 
-     <div className=' w-[270px] h-[361px] top-[1105px] left-[376px] bg-pic1 ml-[-100px] mt-[-360px] ]'>
+     <div className=' 2 w-[270px] h-[361px] top-[1105px] left-[675px] bg-pic1 ml-[-100px] mt-[-360px] ]'>
     <div className='w-[270px] h-[236px] bg-chair'>
-     <div className='w-[178px] h-[178px] top-[46px] left-[40px] flex justify-center items-center ml-[30px] pt-[60px]'>
+     <div className='w-[178px] h-[178px] top-[46px] left-[40px] flex justify-center items-center ml-[30px] pt-[30px]'>
       <Image className='' src={"/Images/pic5.png"} width={178} height={178} alt='pics'/>
+         <div className='w-[94px] h-[29px] top-[198px] left-[95px] rounded-[2px] bg-green mt-[220px] ml-[-140px] '>
+            <div className='w-[100px] h-[12px] top-[206px] left-[108px] text-[12px] text-white flex justify-center items-center pt-[13px] ml-[10px]'>
+             <p >View Details</p>
+              <div className='w-[30px] h-[30px] top-[11px] left-[11px] '>
+              <div className='w-[19px] h-[19px] top-[18px] left-[16px] ml-[-300px]'>
+               <Image className='ml-[155px] mt-[-180px]' src={"/Images/pic18.png"} width={19} height={19} alt='pics' />
+               <div className='w-[17px] h-[17px] top-[18px] left-[57px]'>
+                <div className='w-[14.17px] h-[13.08px] top-[1.96px] left-[1.41px] text-bluegradient'>
+                <FaRegHeart className='ml-[190px] mt-[-16px] text-[16px]' />
+                <div className='w-[15px] h-[15px] top-[19px] left-[90px]'>
+                 <div className='w-[12.51px] h-[12.5px] top-[1.24px] left-[1.24px]'>
+                 <FaSearchPlus className='ml-[220px] mt-[-16px] text-[15px]'/>
 
+
+                 </div>
+
+
+                </div>
+
+
+
+                </div>
+
+
+
+               </div>
+               </div>
+               </div>
+            </div>
+           
+
+
+
+         </div>
      </div>
 
     </div>
@@ -123,7 +158,7 @@ const Promotion = () => {
 
 
 
-     <div className=' w-[270px] h-[361px] top-[1105px] left-[376px] bg-sec ml-[200px] mt-[-360px] ]'>
+     <div className='3 w-[270px] h-[361px] top-[1105px] left-[376px] bg-sec ml-[200px] mt-[-360px] ]'>
     <div className='w-[270px] h-[236px] bg-chair'>
      <div className='w-[178px] h-[178px] top-[46px] left-[40px] flex justify-center items-center ml-[30px] pt-[60px]'>
       <Image className='' src={"/Images/pic6.png"} width={178} height={178} alt='pics'/>
@@ -159,7 +194,7 @@ const Promotion = () => {
 
 
 
-     <div className=' w-[270px] h-[361px] top-[1105px] left-[376px] bg-sec ml-[500px] mt-[-360px] ]'>
+     <div className='4 w-[270px] h-[361px] top-[1105px] left-[376px] bg-sec ml-[500px] mt-[-360px] ]'>
     <div className='w-[270px] h-[236px] bg-chair'>
      <div className='w-[178px] h-[178px] top-[46px] left-[40px] flex justify-center items-center ml-[30px] pt-[60px]'>
       <Image className='' src={"/Images/pic7.png"} width={178} height={178} alt='pics'/>

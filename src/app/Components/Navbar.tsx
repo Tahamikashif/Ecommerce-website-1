@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaChevronDown } from "react-icons/fa6";
 import { IoSearch } from "react-icons/io5";
+import Link from 'next/link';
 const Navbar = () => {
   return (
     <div className='w-[1920px] h-screen bg-white'>
@@ -9,17 +10,17 @@ const Navbar = () => {
         <p className='text-[34px] font-medium flex pt-[-20px] pl-[50px] '>Hekto</p>
           <div className='w-[43px] h-[20px] top-[10px] left-[186px] gap-[30px]'>
           <ul className='flex justify-center items-center ml-[300px] gap-[30px]'>
-             <li className='text-li'>Home</li>
+             <li className='text-li'><Link href={"/"}>Home</Link></li>
              <div className='w-[12px] h-[12px] top-[14px] left-[231px]'>
              <FaChevronDown className='ml-[-25px] mt-[-2px] text-li'/>
 
 
              </div>
-             <li>Pages</li>
-             <li>Product</li>
-             <li>Blog</li>
-             <li>Shop</li>
-             <li>Contact</li>
+             <li><a href="/">Pages</a></li>
+             <li><a href={"#Pro"}>Product</a></li>
+             <li><a href={"/Blog"}>Blog</a></li>
+             <li><a href={"/Shop"}>Shop</a></li>
+             <li><a href={"/Contact"}>Contact</a></li>
 
 
           </ul>

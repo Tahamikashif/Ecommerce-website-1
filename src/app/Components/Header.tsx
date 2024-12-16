@@ -1,4 +1,4 @@
- "use client"
+  "use client"
 import React from 'react'
 import { BiEnvelope } from "react-icons/bi";
 import { BiPhoneCall } from "react-icons/bi";
@@ -6,7 +6,7 @@ import { FaChevronDown } from "react-icons/fa6";
 import { LuUser } from "react-icons/lu";
 import { FiHeart } from "react-icons/fi";
 import { PiShoppingCartSimpleBold } from "react-icons/pi";
-
+import Link from 'next/link';
 const Header = () => {
   return (
     <div className='w-[1920px] h-[44px] bg-shad'>
@@ -27,7 +27,7 @@ const Header = () => {
              <p className='ml-[1400px] mt-[-20px] text-white'>USD</p>
              <FaChevronDown className='text-white ml-[1437px] mt-[-20px]' />
               <div className='w-[43px] h-[16px] top-[14px] left-[1346px]'>
-              <p className='ml-[1480px] text-white mt-[-21px]'>Login</p>
+              <p className='ml-[1480px] text-white mt-[-21px]'><Link href="/Logins">Login</Link></p>
               <div className='w-[16px] h-[16px] top-[12px] left-[1389px]'>
               <LuUser className='text-white ml-[1522px] mt-[-20px]' />
               <div className='w-[58px] h-[16px] top-[14px] left-[1421px]'>
@@ -35,6 +35,7 @@ const Header = () => {
                 <FiHeart  className='text-white ml-[1620px] mt-[-20px] text-[18px]'/>
                 <div className='w-[24px] h-[24px] top-[9px] left-[1524px]'>
                 <PiShoppingCartSimpleBold  className='text-white ml-[1652px] mt-[-19px] text-[20px]'/>
+                 
                 </div>
 
               </div>
@@ -73,4 +74,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Header; 
